@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "autoname": "ACCA-CBE-CPD-.YY.-.####",
+ "creation": "2021-03-09 21:26:22.443422",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exam_date",
+  "section_break_2",
+  "papers"
+ ],
+ "fields": [
+  {
+   "fieldname": "exam_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Exam Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "papers",
+   "fieldtype": "Table",
+   "label": "Papers",
+   "options": "CBE Datesheet Paper",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-03-09 21:27:36.229838",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "CBE Paper Datesheet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

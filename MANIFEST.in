@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include acca *.css
+recursive-include acca *.csv
+recursive-include acca *.html
+recursive-include acca *.ico
+recursive-include acca *.js
+recursive-include acca *.json
+recursive-include acca *.md
+recursive-include acca *.png
+recursive-include acca *.py
+recursive-include acca *.svg
+recursive-include acca *.txt
+recursive-exclude acca *.pyc

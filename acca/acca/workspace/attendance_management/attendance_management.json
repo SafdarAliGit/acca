@@ -1,0 +1,61 @@
+{
+ "category": "Domains",
+ "charts": [],
+ "creation": "2021-03-13 02:48:46.537126",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Attendance Management",
+ "links": [],
+ "modified": "2021-04-29 18:06:33.278852",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "Attendance Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "New",
+   "label": "Attendance Tool",
+   "link_to": "Attendance Tool",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Verge Student",
+   "link_to": "Verge Student",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Gym Member",
+   "link_to": "Gym Member",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Verge Attendance",
+   "link_to": "Verge Attendance",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Gym Attendance",
+   "link_to": "Gym Attendance",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Student Attendance Log",
+   "link_to": "Student Attendance Log",
+   "type": "DocType"
+  }
+ ]
+}

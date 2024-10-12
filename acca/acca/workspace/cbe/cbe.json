@@ -1,0 +1,50 @@
+{
+ "category": "Domains",
+ "charts": [],
+ "charts_label": "",
+ "creation": "2021-03-09 17:31:28.025592",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "CBE",
+ "links": [],
+ "modified": "2021-04-14 23:31:17.502257",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "CBE",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "CBE Registration",
+   "link_to": "CBE Registration",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "Assessment Form",
+   "link_to": "Student Applicant",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "CBE Exam Seat Quota",
+   "link_to": "CBE Exam Seat Quota",
+   "type": "Report"
+  },
+  {
+   "doc_view": "",
+   "label": "Daily Collection Report",
+   "link_to": "Daily Collection Report",
+   "type": "Report"
+  }
+ ]
+}

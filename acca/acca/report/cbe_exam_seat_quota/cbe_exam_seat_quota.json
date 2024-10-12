@@ -1,0 +1,31 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-04-14 23:16:05.725466",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-04-18 15:29:54.552075",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "CBE Exam Seat Quota",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select \ncbe_exam_date as \"Exam Date:Data:100\",\nshift as \"Shift:Data:250\",\n23 as \"Total Seats:Int:150\",\ncount(name) as \"Occupied Seats:Int:150\",\n23 - count(name) as\"Available Seats:Int:150\"\nfrom `tabCBE Registration`\nwhere docstatus = 1 and status = \"Paid\"\n\ngroup by cbe_exam_date, shift\norder by cast(concat(right(cbe_exam_date, 4), \"-\", right(left(REPLACE(cbe_exam_date, '-', ''), 4), 2), \"-\", left(cbe_exam_date, 2)) as datetime), shift",
+ "ref_doctype": "CBE Registration",
+ "reference_report": "",
+ "report_name": "CBE Exam Seat Quota",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  },
+  {
+   "role": "CBE Candidate"
+  }
+ ]
+}

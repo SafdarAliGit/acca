@@ -1,0 +1,463 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "ACCA-CBE-.####",
+ "creation": "2021-03-07 16:18:36.094876",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "text_editor_47",
+  "transfer_from",
+  "acca_registration_no",
+  "section_break_2",
+  "applicant_name",
+  "guardian",
+  "column_break_8",
+  "application_date",
+  "customer",
+  "image",
+  "section_break_4",
+  "date_of_birth",
+  "gender",
+  "column_break_12",
+  "student_email_id",
+  "whatsapp",
+  "student_mobile_number",
+  "nationality",
+  "home_address",
+  "area",
+  "address_line_2",
+  "pincode",
+  "column_break_23",
+  "city",
+  "state",
+  "section_break_20",
+  "column_break_28",
+  "occupation",
+  "column_break_30",
+  "designation",
+  "column_break_32",
+  "organization",
+  "section_break_35",
+  "tution_provider",
+  "subject_teacher_name",
+  "cbe_paper",
+  "cbe_exam_date",
+  "shift",
+  "exam_charges",
+  "previous_paid_amount",
+  "transfer_charges",
+  "amount",
+  "payment_mode",
+  "online_payment_receipt_upload",
+  "instructions_section",
+  "text_editor_46",
+  "status",
+  "submit_info",
+  "section_break_46",
+  "payment_reference",
+  "payment_received_by",
+  "owner",
+  "transfer_details_section",
+  "transferred_to",
+  "section_break_55",
+  "amended_from",
+  "cancelled_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "application_date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Application Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "student_email_id",
+   "fieldtype": "Data",
+   "label": "Student Email Address",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_mobile_number",
+   "fieldtype": "Data",
+   "label": "Student Mobile Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "home_address",
+   "fieldtype": "Section Break",
+   "label": "Home Address"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break",
+   "label": "Guardian Details"
+  },
+  {
+   "fieldname": "guardian",
+   "fieldtype": "Data",
+   "label": "Father's / Guardian's Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Designation"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Organization"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "CBE Registration",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "acca_registration_no",
+   "fieldtype": "Data",
+   "label": "ACCA Registration No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tution_provider",
+   "fieldtype": "Select",
+   "label": "Tution Provider",
+   "options": "Al-Hamd Academy\nAl-Hamd Academy (HYD)\nMHA (Mirchawala)\nTSA (Tabani's)\nARTT\nKASBIT\nKNS\nTMUC\nASA (Abeel)\nCAMS College\nPrivate\nSelf\nOthers"
+  },
+  {
+   "fieldname": "subject_teacher_name",
+   "fieldtype": "Data",
+   "label": "Subject Teacher Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cbe_exam_date",
+   "fieldtype": "Select",
+   "label": "CBE Exam Date"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "\nShift 1 - Reporting 10:00 AM\nShift 2 - Reporting 12:30 PM\nShift 3 - Reporting 03:00 PM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cbe_paper",
+   "fieldtype": "Link",
+   "label": "CBE Paper",
+   "options": "CBE Paper",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Received Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "Cash\nCard\nOnline\nCheque"
+  },
+  {
+   "fieldname": "online_payment_receipt_upload",
+   "fieldtype": "Attach",
+   "label": "Online Payment Receipt (Upload)"
+  },
+  {
+   "fieldname": "instructions_section",
+   "fieldtype": "Section Break",
+   "label": "Instructions"
+  },
+  {
+   "bold": 1,
+   "default": "Must Bring your Original CNIC/ Passport/ Driving License on CBE Day.\nAnnual Subscription Fee must not be overdue.\nPlease bring Form Slip on CBE Day.\nCBE Date will not be changed/ cancelled after passing Last Registration Date of CBE.\n",
+   "fieldname": "text_editor_46",
+   "fieldtype": "Text Editor",
+   "read_only": 1
+  },
+  {
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "whatsapp",
+   "fieldtype": "Data",
+   "label": "Whatsapp Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area (Only Area Name)",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "default": "INSTRUCTION\n\nAll highlighted fields are Mandatory.\nUse all Capital Letter \nUse Tab Key for next input field.\n ",
+   "fieldname": "text_editor_47",
+   "fieldtype": "Text Editor",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Draft\nPaid\nTransferred\nCancelled",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.docstatus == 0",
+   "fieldname": "submit_info",
+   "fieldtype": "Button",
+   "label": "Save"
+  },
+  {
+   "depends_on": "eval:doc.docstatus == 1",
+   "fieldname": "section_break_46",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "payment_reference",
+   "fieldtype": "Data",
+   "label": "Payment Reference",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "payment_reference.owner",
+   "fieldname": "payment_received_by",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Payment Received By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "owner",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Created By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.transfer_from",
+   "fieldname": "transfer_charges",
+   "fieldtype": "Currency",
+   "label": "Transfer Charges"
+  },
+  {
+   "fieldname": "transfer_from",
+   "fieldtype": "Link",
+   "label": "Transfer From",
+   "options": "CBE Registration",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.transfer_from",
+   "fieldname": "previous_paid_amount",
+   "fieldtype": "Currency",
+   "label": "Previous Paid Amount",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "exam_charges",
+   "fieldtype": "Currency",
+   "label": "Exam Charges",
+   "read_only": 1
+  },
+  {
+   "fieldname": "transfer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Transfer Details"
+  },
+  {
+   "fieldname": "transferred_to",
+   "fieldtype": "Data",
+   "label": "Transferred To",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_55",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_on_submit": 1,
+   "fetch_from": "modified_by.name",
+   "fieldname": "cancelled_by",
+   "fieldtype": "Data",
+   "label": "Cancelled By",
+   "read_only": 1
+  }
+ ],
+ "image_field": "image",
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-06-08 16:48:06.539647",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "CBE Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Academics User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Education",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "applicant_name",
+ "track_changes": 1
+}

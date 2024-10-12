@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "creation": "2021-03-09 21:26:56.200024",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "paper",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "paper",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Paper",
+   "options": "CBE Paper",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-09 21:57:27.867606",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "CBE Datesheet Paper",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

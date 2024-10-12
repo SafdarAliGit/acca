@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "creation": "2021-03-11 13:27:53.925369",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "qualification",
+  "passing_year",
+  "grade",
+  "school_college"
+ ],
+ "fields": [
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Qualification",
+   "options": "SSC /O' Levels\nHSC-I /A' Levels\nHSC-II /A' Levels\nGraduation\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "passing_year",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Passing Year"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Grade"
+  },
+  {
+   "fieldname": "school_college",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "School /College"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-11 13:34:21.719535",
+ "modified_by": "Administrator",
+ "module": "ACCA",
+ "name": "Student Applicant Qualification",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
